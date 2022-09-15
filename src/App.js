@@ -4,7 +4,11 @@ import './App.css'
 const InnerBox = () => {
   return (
     <div className="innerBox">
-
+      <Image />
+      <Intro />
+      <Contact />
+      <SmallText />
+      <Social />
     </div>
   )
 }
