@@ -1,12 +1,13 @@
-import 'font-awesome/css/font-awesome.min.css'
+import React from 'react'
+import pic from './img/pic.jpg'
 import './App.css'
 
 
 
-cont Image = () => {
+const Image = () => {
   return (
     <div>
-      <img src="./img/pic.jpg" alt="" />
+      <img src={pic} alt="pic" />
     </div>
     
   )
@@ -17,10 +18,10 @@ const InnerBox = () => {
   return (
     <div className="innerBox">
       <Image />
-      <Intro />
+      {/* <Intro />
       <Contact />
       <SmallText />
-      <Social />
+      <Social /> */}
     </div>
   )
 }
