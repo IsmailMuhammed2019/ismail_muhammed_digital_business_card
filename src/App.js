@@ -3,6 +3,15 @@ import './App.css'
 
 
 
+cont Image = () => {
+  return (
+    <div>
+      <img src="./img/pic.jpg" alt="" />
+    </div>
+    
+  )
+}
+
 
 const InnerBox = () => {
   return (
