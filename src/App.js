@@ -1,6 +1,7 @@
 import React from 'react'
 import pic from './img/pic.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import {Container} from 'react-bootstrap'
 
 import './App.css'
 
@@ -72,14 +73,15 @@ const Image = () => {
 
 const InnerBox = () => {
   return (
-    <div className='innerBox'>
+    <Container>
+      <div className='innerBox'>
       <Image />
       <Intro />
       <Social />
       <Text />
       <SocialIcons />
-
-    </div>
+      </div>
+    </Container>
   )
 }
 
