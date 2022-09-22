@@ -3,6 +3,14 @@ import pic from './img/pic.jpg'
 import './App.css'
 
 
+const SocialIcons = () => {
+  return (
+    <div className='socialicons'>
+
+    </div>
+  )
+}
+
 const Text = () => {
   return (
     <div>
@@ -64,6 +72,8 @@ const InnerBox = () => {
       <Image />
       <Intro />
       <Social />
+      <Text />
+      <SocialIcons />
 
     </div>
   )
