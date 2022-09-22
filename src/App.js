@@ -12,8 +12,12 @@ const SocialIcons = () => {
   return (
     <div className='socialicons'>
       <a href='https://web.facebook.com/ismyil.mohammed'>
+        <FontAwesomeIcon icon={faTwitter} />
+      </a>
+      <a href='https://web.facebook.com/ismyil.mohammed'>
         <FontAwesomeIcon icon={faFacebook} />
       </a>
+      
     </div>
   )
 }
