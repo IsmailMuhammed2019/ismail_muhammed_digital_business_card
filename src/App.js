@@ -20,6 +20,9 @@ const SocialIcons = () => {
       <a href='https://web.facebook.com/ismyil.mohammed'>
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
+      <a href='https://web.facebook.com/ismyil.mohammed'>
+        <FontAwesomeIcon icon={faGithub} />
+      </a>
     </div>
   )
 }
