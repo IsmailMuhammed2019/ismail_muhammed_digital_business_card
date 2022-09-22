@@ -1,8 +1,11 @@
 import React from 'react'
 import pic from './img/pic.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 import './App.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  } from '@fortawesome/free-brands-svg-icons'
 
 const SocialIcons = () => {
   return (
