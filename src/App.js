@@ -1,12 +1,13 @@
 import React from 'react'
 import pic from './img/pic.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
+
 
 import { Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faTwitter, faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import './App.css'
 
 const SocialIcons = () => {
   return (
