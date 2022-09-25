@@ -57,15 +57,28 @@ const Text = () => {
 const Social = () => {
   return (
     <div className='social'>
-      <button>Email</button>
-      <button>Linkedin</button>
+      <a href='https://web.facebook.com/ismyil.mohammed' className='btnEmail'>
+        <button>
+          <FontAwesomeIcon icon={faTwitter} />
+          Email
+        </button>
+      </a>
+      <a
+        href='https://web.facebook.com/ismyil.mohammed'
+        className='btnLinkedin'
+      >
+        <button>
+          <FontAwesomeIcon icon={faTwitter} />
+          Linkedin
+        </button>
+      </a>
     </div>
   )
 }
 
 const Intro = () => {
   return (
-    <div>
+    <div className="name">
       <h1>Ismail Muhammed</h1>
       <h3>IT Support Engr | DevOps Engr | Web Developer</h3>
       <p>+234-703-237-8480</p>

@@ -2,6 +2,7 @@
  box-sizing: border-box;
  margin: 0;
  padding: 0;
+ overflow: hidden;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
  font-size: 1rem;
  height: 100vh;
  width: 100vw;
+ overflow: auto;
 }
 
 p {
@@ -22,7 +24,62 @@ img {
  height: 100%;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
 .innerBox{
  background-color: #121212df;
+ width: 96%;
+ margin-left:auto;
+ margin-right: auto;
+ padding: 10px;
+}
+
+.pic {
+ margin-bottom: 30px;
+ height: 550px;
+ border-radius: 20px 20px 0 0;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.name {
+ text-align: center;
+}
+
+.name > h1 {
+ font-size: 50px;
+ margin-bottom: 17px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btnEmail {
+    width: 40%;
+    height: 40px;
+    padding: 20px;
+    line-height: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #ffffff;
+}
+
+.btnLinkedin {
+    width: 40%;
+    height: 40px;
+    padding: 20px;
+    line-height: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #42b3f4;
+    color: #ffffff;
+}
 
 }
+
+
+
