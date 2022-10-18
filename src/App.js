@@ -3,7 +3,7 @@ import pic from './img/pic.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-import { Container } from 'react-bootstrap'
+// import { Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -94,7 +94,7 @@ const Image = () => {
 
 const InnerBox = () => {
   return (
-    <Container>
+    // <Container>
       <div className='innerBox'>
       <Image />
       <Intro />
@@ -102,7 +102,7 @@ const InnerBox = () => {
       <Text />
       <SocialIcons />
       </div>
-    </Container>
+    // </Container>
   )
 }
 

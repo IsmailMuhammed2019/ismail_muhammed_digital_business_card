@@ -20,9 +20,23 @@ p {
 }
 
 img {
- width: fit-content;
- height: 100%;
+width: 100%;
+height: auto;
 }
 
+.innerBox {
+    width: 450px;
+    height: auto;
+    margin-top: 3rem;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#020202;
+}
+
+.pic {
+        height: auto;
+        width: 100%;
+}
 
 
