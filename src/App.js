@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import './App.css'
 
@@ -58,16 +58,15 @@ const Social = () => {
   return (
     <div className='social'>
       <a href='https://web.facebook.com/ismyil.mohammed' className='btnEmail'>
-          <FontAwesomeIcon icon={faMail} />
-          Email
-  
+        <FontAwesomeIcon icon={faEnvelope} />
+        Email
       </a>
       <a
         href='https://web.facebook.com/ismyil.mohammed'
         className='btnLinkedin'
       >
-          <FontAwesomeIcon icon={faLinkedin} />
-          Linkedin
+        <FontAwesomeIcon icon={faLinkedin} />
+        Linkedin
       </a>
     </div>
   )
