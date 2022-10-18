@@ -15,8 +15,20 @@ body {
  overflow: auto;
 }
 
+ h1 {
+    font-size: 3rem;
+ }
+
+h3 {
+    font-size: 1.5rem;
+}
+
 p {
  color: #d0cece !important;
+}
+
+.a {
+    text-decoration: none;
 }
 
 img {

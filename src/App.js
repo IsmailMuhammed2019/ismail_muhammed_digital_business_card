@@ -76,7 +76,7 @@ const Intro = () => {
   return (
     <div className="name">
       <h1>Ismail Muhammed</h1>
-      <h3>Sys Admin | DevOps Engr | Web Dev</h3>
+      <h3>Sys Admin | DevOps Engr | Web Developer</h3>
       <p>+234-703-237-8480</p>
     </div>
   )
