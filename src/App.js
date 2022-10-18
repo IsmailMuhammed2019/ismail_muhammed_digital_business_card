@@ -58,19 +58,16 @@ const Social = () => {
   return (
     <div className='social'>
       <a href='https://web.facebook.com/ismyil.mohammed' className='btnEmail'>
-        <button>
-          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faMail} />
           Email
-        </button>
+  
       </a>
       <a
         href='https://web.facebook.com/ismyil.mohammed'
         className='btnLinkedin'
       >
-        <button>
-          <FontAwesomeIcon icon={faTwitter} />
+          <FontAwesomeIcon icon={faLinkedin} />
           Linkedin
-        </button>
       </a>
     </div>
   )
