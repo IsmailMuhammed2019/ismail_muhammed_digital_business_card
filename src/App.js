@@ -57,16 +57,18 @@ const Text = () => {
 const Social = () => {
   return (
     <div className='social'>
-      <a href='https://web.facebook.com/ismyil.mohammed' className='btnEmail'>
-        <FontAwesomeIcon icon={faEnvelope} />
+      <a href='https://web.facebook.com/ismyil.mohammed'><button className='btnEmail'>
+        <FontAwesomeIcon icon={faEnvelope} className="iconemail" />
         Email
+        </button>
       </a>
       <a
-        href='https://web.facebook.com/ismyil.mohammed'
+        href='https://web.facebook.com/ismyil.mohammed' ><button
         className='btnLinkedin'
       >
         <FontAwesomeIcon icon={faLinkedin} />
         Linkedin
+        </button>
       </a>
     </div>
   )
