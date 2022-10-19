@@ -39,7 +39,7 @@ const Text = () => {
         </p>
       </div>
       <div className='about bottom'>
-        <h3>Interest</h3>
+        <h3>Interests</h3>
         <p>I love to create solutions to problems that require thinking and practicals, to use my investigative interest to come up with ideas that handles the problem and solve them in a fast pace. I love set precedures, routines, and standards activities. </p>
       </div>
     </div>

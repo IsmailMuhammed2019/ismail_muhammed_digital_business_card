@@ -93,9 +93,21 @@ height: auto;
 }
 
 .about {
-    padding:15px;
+    padding: 10px 10px 0 10px;
 }
 
 .about > p {
     text-align: justify;
+}
+
+.bottom {
+    padding-top: 0px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
 }
