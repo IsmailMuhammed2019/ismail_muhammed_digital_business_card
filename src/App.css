@@ -91,3 +91,11 @@ height: auto;
 .iconemail {
     margin-right: 10px;
 }
+
+.about {
+    padding:15px;
+}
+
+.about > p {
+    text-align: justify;
+}
