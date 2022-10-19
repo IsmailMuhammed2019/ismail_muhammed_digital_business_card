@@ -66,7 +66,7 @@ const Social = () => {
         href='https://web.facebook.com/ismyil.mohammed' ><button
         className='btnLinkedin'
       >
-        <FontAwesomeIcon icon={faLinkedin} />
+        <FontAwesomeIcon icon={faLinkedin} className="iconemail"/>
         Linkedin
         </button>
       </a>
