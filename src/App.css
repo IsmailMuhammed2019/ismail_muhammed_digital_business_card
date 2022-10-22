@@ -105,11 +105,12 @@ height: auto;
 }
 
 .socialicons {
-    display: flex;
+display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 90%;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .socialicons > .iconz {
