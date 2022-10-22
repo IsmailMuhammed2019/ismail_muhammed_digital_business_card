@@ -15,12 +15,12 @@ body {
  overflow: auto;
 }
 
- h1 {
-    font-size: 3rem;
+ .name > h1 {
+    font-size: 3.5rem;
  }
 
-h3 {
-    font-size: 1.5rem;
+.name > h3 {
+    font-size: 18px;
 }
 
 p {
