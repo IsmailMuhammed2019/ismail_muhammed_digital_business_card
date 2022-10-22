@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ismail_muhammed_digital_business_card/static/css/main.cf7a0d2c.css",
+    "main.css": "/ismail_muhammed_digital_business_card/static/css/main.59bb6fc4.css",
     "main.js": "/ismail_muhammed_digital_business_card/static/js/main.f4dd576d.js",
     "static/media/pic.jpg": "/ismail_muhammed_digital_business_card/static/media/pic.29095670bda30aef4c3c.jpg",
     "index.html": "/ismail_muhammed_digital_business_card/index.html",
-    "main.cf7a0d2c.css.map": "/ismail_muhammed_digital_business_card/static/css/main.cf7a0d2c.css.map",
+    "main.59bb6fc4.css.map": "/ismail_muhammed_digital_business_card/static/css/main.59bb6fc4.css.map",
     "main.f4dd576d.js.map": "/ismail_muhammed_digital_business_card/static/js/main.f4dd576d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf7a0d2c.css",
+    "static/css/main.59bb6fc4.css",
     "static/js/main.f4dd576d.js"
   ]
 }
