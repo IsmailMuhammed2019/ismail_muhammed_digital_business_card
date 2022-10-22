@@ -104,10 +104,26 @@ height: auto;
     padding-top: 0px;
 }
 
-.social {
+.socialicons {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: auto;
     margin-left: auto;
+}
+
+.socialicons > .iconz {
+    background: #fff;
+    text-align: center;
+    margin: 8px;
+    font-size: 15px;
+    color: #020202;
+    border-radius: 10px;
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+    font-size: 2rem;
+    margin-top: 7px;
 }

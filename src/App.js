@@ -12,16 +12,16 @@ import './App.css'
 const SocialIcons = () => {
   return (
     <div className='socialicons'>
-      <a href='https://web.facebook.com/ismyil.mohammed'>
+      <a className='iconz' href='https://web.facebook.com/ismyil.mohammed'>
         <FontAwesomeIcon icon={faTwitter} />
       </a>
-      <a href='https://web.facebook.com/ismyil.mohammed'>
+      <a className='iconz' href='https://web.facebook.com/ismyil.mohammed'>
         <FontAwesomeIcon icon={faFacebook} />
       </a>
-      <a href='https://web.facebook.com/ismyil.mohammed'>
+      <a className='iconz' href='https://web.facebook.com/ismyil.mohammed'>
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
-      <a href='https://web.facebook.com/ismyil.mohammed'>
+      <a className='iconz' href='https://web.facebook.com/ismyil.mohammed'>
         <FontAwesomeIcon icon={faGithub} />
       </a>
     </div>
